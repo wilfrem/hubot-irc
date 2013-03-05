@@ -1,5 +1,7 @@
 # Hubot dependencies
-{Robot, Adapter, TextMessage, EnterMessage, LeaveMessage, Response} = require 'hubot'
+Robot                                   = require '../../../src/robot'
+Adapter                                 = require '../../../src/adapter'
+{TextMessage,EnterMessage,LeaveMessage,Response} = require '../../../src/message'
 
 # Irc library
 Irc = require 'irc'
